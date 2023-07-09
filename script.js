@@ -1,4 +1,5 @@
 "use strict"
+
 let btnRef = document.querySelectorAll('.button-option');
 let popupRef = document.querySelector('.popup');
 let newGameBtn = document.getElementById('new-game');
@@ -112,3 +113,6 @@ btnRef.forEach((element) => {
 });
 //Enable Buttons and disable popup on page load
 window.onload = enableButtons;
+
+
+
